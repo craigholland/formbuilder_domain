@@ -1,5 +1,5 @@
-# SolidPy Domain submodule template
-Base structure for SolidPy.Domain submodule
+# Formbuilder Domain submodule template
+Base structure for Formbuilder.Domain submodule
 
 # Basic Setup
 - Configure Poetry Auth to use GCP Artifact Registry:

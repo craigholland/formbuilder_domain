@@ -3,9 +3,9 @@ requires = [ "poetry-core",]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "solidpy_domain"
+name = "formbuilder_domain"
 version = "0.1.0"
-description = "Base Template for SolidPy.Domain"
+description = "Base Template for Formbuilder.Domain"
 authors = [ "Craig Holland <craig_holland@hotmail.com>",]
 readme = "README.md"
 [[tool.poetry.source]]
@@ -34,7 +34,8 @@ pytest = "^8.2.0"
 tox = "^4.15.0"
 pre-commit = "^3.7.1"
 pycparser = "2.22"
+pydantic = "2.10.4"
 
 [tool.poetry.dependencies.common-core]
-version = "^0.2.0"
+version = "^0.4.0"
 source = "pypi-gcp"
